@@ -1,0 +1,10 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.node.json",
+  "include": ["vite.config.*", "vitest.config.*", "cypress.config.*"],
+  "compilerOptions": {
+    "composite": true,
+    "types": ["node"],
+    // "Option 'importsNotUsedAsValues' is deprecated and will stop functioning in TypeScript 5.5. Specify compilerOption '\"ignoreDeprecations\": \"5.0\"' to silence this error.\n  Use 'verbatimModuleSyntax' instead."
+    "ignoreDeprecations":"5.0"  //添加这个可以解决上面的报错
+  }
+}

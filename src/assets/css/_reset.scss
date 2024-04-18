@@ -1,0 +1,20 @@
+//SCSS样式
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body,#app{
+    height: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+body{
+    font-size: 14px;
+}
+//设置rem
+html{
+    //1rem=100px  100vw=750px 1rem=13.333333333vw 1vw=7.5px
+    font-size: 13.333333333vw;//100px    /* 1rem==13.3333vw==100px */
+}
+
+

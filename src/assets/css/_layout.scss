@@ -1,0 +1,16 @@
+//布局的样式
+@import './var.scss';
+.app-navHeader{
+    background: $red-color;
+    font-weight: bold;
+    .van-nav-bar__left,
+    .van-icon,
+    .van-nav-bar__title,
+    .van-nav-bar__right{
+        font-size: 15px;
+        color: #ffffff;
+    };
+    .van-search{
+        padding: 0;
+    }
+}
